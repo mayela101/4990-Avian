@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap'); /*Title Font*/
+
+/*Global Styling*/
+html, body {
+  height: 100%;           
+  margin: 0;              
+  margin-top:30px;      
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 0rem auto; /* Center horizontally and add some margin below */
+  width: 40px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;           
+  overflow-y: auto;      
+  padding: 0;             
+}
+
+/*Main App Content Container Styling*/
+.bubble-container {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+  width: 600px;   
+  overflow-y: auto;       
+}
+
+/*Header Styling*/
+.title {
+  color: #f1750a;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  margin-bottom: 0.5rem;
+}
+
+.slogan {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background-color: #f1750a !important ;
+  color: white !important ;
+  border: none !important;
+  padding: 0.75rem 1.5rem !important;
+  font-size: 1rem Im !important;
+  font-weight: bold !important;
+  border-radius: 20px !important;
+  cursor: pointer !important;
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+.btn:hover {
+  background-color: #d96500 !important;
+}
+
+/* Form control styling */
+.form-control {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+.itinerary-container {
+  margin-top: 3rem;
+  width: 600px; 
+}
+
+.itinerary {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+.form-label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.text-muted {
+  font-size: 1rem;
+  color: #777;
+  text-align: center;
+  margin-top: 1rem;
+}
